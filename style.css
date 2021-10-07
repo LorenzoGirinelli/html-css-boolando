@@ -1,0 +1,61 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.container{
+    position: relative;
+    width: 70%;
+    height:1000px;
+    margin: auto;
+    background-color: lightgreen;
+}
+.product{
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.product .sovrascritta{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.product:hover .sovrascritta{
+    display: inline;
+}
+.heart{
+    display: inline-block;
+    font-size: 25px;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    padding: 3px 9px;
+    background-color: white;
+
+}
+.sale-scritta{
+        font-size: 10px;
+        position: absolute;
+        bottom: 30px;
+        left: 0px;
+        color: white;
+        z-index: 99S;
+}
+.sale{
+    background-color: red;
+    display: inline-block;
+    padding: 2px;
+}
+.scritta{
+    background-color: #00875a;
+    display: inline-block;
+    padding: 2px;
+}
+
